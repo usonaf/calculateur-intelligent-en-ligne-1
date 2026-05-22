@@ -1,0 +1,325 @@
+{
+  "run_id": "run-1779481313643",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "calculator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "",
+    "notes": "",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "provider-space",
+    "provider_space_name": "Provider space",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "calculator",
+    "archetype_mix": [
+      "calculator"
+    ]
+  },
+  "site_spec": {
+    "slug": "calculateur-intelligent-en-ligne-1",
+    "theme": {
+      "name": "Velvet Luxe",
+      "slug": "velvet-luxe",
+      "eyebrow": "Boutique Precision",
+      "family": "velvet-luxe",
+      "moods": [
+        "luxury",
+        "dark",
+        "refined",
+        "premium"
+      ],
+      "archetypes": [
+        "calculator",
+        "generator",
+        "tool"
+      ],
+      "niches": [
+        "luxury services",
+        "legal",
+        "consulting",
+        "high-end property",
+        "finance"
+      ],
+      "keywords": [
+        "boutique",
+        "premium",
+        "velvet",
+        "luxury",
+        "refined"
+      ],
+      "token_index": [
+        "boutique",
+        "calculator",
+        "consulting",
+        "dark",
+        "end",
+        "finance",
+        "generator",
+        "high",
+        "legal",
+        "luxe",
+        "luxury",
+        "precision",
+        "premium",
+        "property",
+        "refined",
+        "services",
+        "tool",
+        "velvet"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap",
+      "display_font": "\"Cormorant Garamond\", serif",
+      "body_font": "\"Sora\", sans-serif",
+      "layout": "editorial",
+      "card_style": "glass",
+      "button_style": "outline",
+      "decor_style": "ribbons",
+      "hero_template": "1fr",
+      "seo_template": "1fr",
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "hero_min_height": "70vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(160deg, #120b1b 0%, #24103a 46%, #0f172a 100%)",
+        "surface": "rgba(20, 12, 30, 0.82)",
+        "surface_border": "rgba(245,208,254,0.14)",
+        "text": "#f8f2ff",
+        "muted": "#d8c7f0",
+        "accent": "#f5d0fe",
+        "accent_alt": "#f59e0b",
+        "hero_glow": "rgba(245, 208, 254, 0.18)",
+        "button_text": "#24103a",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 30px 96px rgba(6, 4, 10, 0.4)",
+        "input_fill": "rgba(255,255,255,0.04)"
+      }
+    },
+    "structure": {
+      "name": "Guided Steps Plus",
+      "slug": "guided-steps-plus",
+      "hero_variant": "stacked",
+      "proof_variant": "checklist",
+      "section_order": [
+        "features",
+        "proof",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 2,
+      "family": "guided-flow",
+      "moods": [
+        "guided",
+        "clear",
+        "operator"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "onboarding",
+        "services",
+        "planning",
+        "forms"
+      ],
+      "keywords": [
+        "guided",
+        "steps",
+        "operator",
+        "onboarding"
+      ],
+      "token_index": [
+        "calculator",
+        "checklist",
+        "clear",
+        "faq",
+        "features",
+        "flow",
+        "forms",
+        "generator",
+        "guided",
+        "onboarding",
+        "operator",
+        "planning",
+        "plus",
+        "proof",
+        "seo",
+        "services",
+        "stacked",
+        "steps",
+        "tool"
+      ]
+    },
+    "render_direction": "editorial-ledger",
+    "render_direction_name": "Editorial Ledger",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Calculateur Intelligent en Ligne",
+    "tagline": "Une lecture plus cadrée avant de décider.",
+    "description": "Une expérience utile, mobile-first et orientée action immédiate.",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Voir la suite",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "amount",
+        "label": "Montant de base",
+        "type": "number",
+        "placeholder": "7500",
+        "weight": 1.0
+      },
+      {
+        "id": "duration",
+        "label": "Durée estimée",
+        "type": "number",
+        "placeholder": "12",
+        "weight": 0.42
+      },
+      {
+        "id": "plan",
+        "label": "Niveau de service",
+        "type": "select",
+        "options": [
+          {
+            "label": "Essentiel",
+            "value": 1.0
+          },
+          {
+            "label": "Performance",
+            "value": 1.18
+          },
+          {
+            "label": "Premium",
+            "value": 1.34
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Editorial Ledger",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Editorial Ledger",
+      "Voir la suite",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "EUR",
+    "runtime_mode": "generic_calculator",
+    "page_variant": "editorial",
+    "faq_topic": "estimation rapide",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour estimation rapide ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de estimation rapide et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "feature_cards": [
+      {
+        "title": "Angle d'analyse",
+        "text": "La saisie reste fluide pour transformer vos données autour de estimation rapide en repère exploitable."
+      },
+      {
+        "title": "Lecture détaillée",
+        "text": "La structure Guided Steps Plus privilégie une lecture premium plutôt qu'un simple total brut."
+      },
+      {
+        "title": "Décision suggérée",
+        "text": "Le résultat vous aide à passer à une décision assurée pour le marché France."
+      }
+    ],
+    "proof_cards": [
+      {
+        "title": "Point de départ",
+        "text": "Velvet Luxe cadre la page avec une lecture premium qui rassure dès le premier écran."
+      },
+      {
+        "title": "Lecture argumentée",
+        "text": "Guided Steps Plus met le résultat en avant avec une hiérarchie fluide et directement exploitable."
+      },
+      {
+        "title": "Issue recommandée",
+        "text": "Le CTA mène vers une action assurée, sans exposer l'utilisateur à un écran inutile."
+      }
+    ]
+  }
+}
